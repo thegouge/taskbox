@@ -1,5 +1,5 @@
 <template>
-  <pure-task-list
+  <PureTaskList
     :tasks="tasks"
     v-on="$listeners"
     @archive-task="archiveTask"
@@ -8,12 +8,14 @@
 </template>
 
 <script>
-import PureTaskList from "./PureTaskList.vue";
+import PureTaskList from "./PureTaskList";
 import { mapState, mapActions } from "vuex";
 
 export default {
   components: { PureTaskList },
-  methods: mapActions(["archiveTask, pinTask"]),
+
+  methods: mapActions(["archiveTask", "pinTask"]),
+
   computed: mapState(["tasks"]),
 };
 </script>
