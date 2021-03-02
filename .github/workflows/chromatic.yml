@@ -21,4 +21,4 @@ jobs:
         with:
           #👇 Chromatic projectToken, see https://www.learnstorybook.com/intro-to-storybook/vue/en/deploy/ to obtain it
           projectToken: project-token
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
