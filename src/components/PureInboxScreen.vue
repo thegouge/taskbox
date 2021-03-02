@@ -3,7 +3,7 @@
     <div v-if="error" class="page lists-show">
       <div class="wrapper-message">
         <span class="icon-face-sad" />
-        <div class="title-message">Oh shit!</div>
+        <div class="title-message">Oh poop!</div>
         <div class="subtitle-message">Something went wrong</div>
       </div>
     </div>

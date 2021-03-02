@@ -11,7 +11,7 @@
     <template v-else-if="isEmpty">
       <div class="wrapper-message">
         <span class="icon-check" />
-        <div class="title-message">We ain't found shit!</div>
+        <div class="title-message">We ain't found nuffin!</div>
         <div class="subtitle-message">you can relax</div>
       </div></template
     >
